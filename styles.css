@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f2;
+  color: #4d004d;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  color: #ff1493;
+}
+h2 {
+  color: #ff1493;
+}
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: bold;
+  color: #c71585;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #ff1493;
+}
+
+button {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 16px;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #d90075;
+}
+#cart {
+  list-style: none;
+  padding: 0;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-left: 6px solid #ff1493;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(255, 20, 147, 0.2);
+}
+.product-info {
+  flex: 2;
+  font-weight: bold;
+}
+.quantity-label {
+  font-weight: bold;
+}
+.quantity {
+  width: 70px;
+}
+.item-total {
+  min-width: 90px;
+  font-weight: bold;
+  color: #c71585;
+}
+.edit-button {
+  background-color: #ff69b4;}
+.edit-button:hover {
+  background-color: #e754a4;
+}
+.remove-button {
+  background-color: #c71585;
+}
+.remove-button:hover {
+  background-color: #990066;
+}
+h3 {
+  text-align: right;
+  color: #ff1493;
+  background-color: white;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  padding: 15px;
+}
+.empty-message {
+  text-align: center;
+  background-color: white;
+  color: #777;
+  border-radius: 8px;
+  padding: 15px;}
+@media screen and (max-width: 700px) {
+  #product-container {
+    flex-direction: column;
+    align-items: stretch; }
+  .cart-item {
+    flex-direction: column;
+    text-align: center;}
+  .quantity {
+    width: 100px; }
+  h3 {
+    text-align: center;
+  }
+}

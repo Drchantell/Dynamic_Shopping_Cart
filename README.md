@@ -1,5 +1,5 @@
                             Dynamic Shopping Cart
-Project Overview
+My Project Overview
 
 This project is a Dynamic Shopping Cart created with HTML, CSS, and JavaScript. It allows users to add products to a shopping cart, update product quantities, remove products, and automatically calculate the total price. It demonstrates basic DOM manipulation, event handling, and dynamic content creation using JavaScript.
 
@@ -12,7 +12,7 @@ The Shopping Cart Features:
     Automatically update the total price
     Basic input validation for empty product names and invalid prices
 
-Technologies Used:
+Technologies I Used:
     HTML
     CSS
     JavaScript
